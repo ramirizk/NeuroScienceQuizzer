@@ -1,0 +1,203 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Users\Rami Rizk\health_science.Neuroscience_Quizzer_XT1
+             -                                            
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* _classpath.xml
+* _project.xml
+* hs_err_pid13348.log
+* hs_err_pid1596.log
+* proguard.cfg
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* brain.PNG => brain.png
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* f09_1.JPG => f09_1.jpg
+* f09_10.JPG => f09_10.jpg
+* f09_11.JPG => f09_11.jpg
+* f09_12.JPG => f09_12.jpg
+* f09_13.JPG => f09_13.jpg
+* f09_14.JPG => f09_14.jpg
+* f09_15.JPG => f09_15.jpg
+* f09_16.JPG => f09_16.jpg
+* f09_17.JPG => f09_17.jpg
+* f09_18.JPG => f09_18.jpg
+* f09_19.JPG => f09_19.jpg
+* f09_2.JPG => f09_2.jpg
+* f09_20.JPG => f09_20.jpg
+* f09_21.JPG => f09_21.jpg
+* f09_22.JPG => f09_22.jpg
+* f09_23.JPG => f09_23.jpg
+* f09_24.JPG => f09_24.jpg
+* f09_25.JPG => f09_25.jpg
+* f09_26.JPG => f09_26.jpg
+* f09_27.JPG => f09_27.jpg
+* f09_28.JPG => f09_28.jpg
+* f09_29.JPG => f09_29.jpg
+* f09_3.JPG => f09_3.jpg
+* f09_30.JPG => f09_30.jpg
+* f09_31.JPG => f09_31.jpg
+* f09_32.JPG => f09_32.jpg
+* f09_33.JPG => f09_33.jpg
+* f09_34.JPG => f09_34.jpg
+* f09_35.JPG => f09_35.jpg
+* f09_36.JPG => f09_36.jpg
+* f09_37.JPG => f09_37.jpg
+* f09_38.JPG => f09_38.jpg
+* f09_39.JPG => f09_39.jpg
+* f09_4.JPG => f09_4.jpg
+* f09_40.JPG => f09_40.jpg
+* f09_41.JPG => f09_41.jpg
+* f09_42.JPG => f09_42.jpg
+* f09_43.JPG => f09_43.jpg
+* f09_44.JPG => f09_44.jpg
+* f09_45.JPG => f09_45.jpg
+* f09_46.JPG => f09_46.jpg
+* f09_47.JPG => f09_47.jpg
+* f09_48.JPG => f09_48.jpg
+* f09_49.JPG => f09_49.jpg
+* f09_5.JPG => f09_5.jpg
+* f09_50.JPG => f09_50.jpg
+* f09_6.JPG => f09_6.jpg
+* f09_7.JPG => f09_7.jpg
+* f09_8.JPG => f09_8.jpg
+* f09_9.JPG => f09_9.jpg
+* m10_1.JPG => m10_1.jpg
+* m10_10.JPG => m10_10.jpg
+* m10_11.JPG => m10_11.jpg
+* m10_12.JPG => m10_12.jpg
+* m10_13.JPG => m10_13.jpg
+* m10_14.JPG => m10_14.jpg
+* m10_15.JPG => m10_15.jpg
+* m10_16.JPG => m10_16.jpg
+* m10_17.JPG => m10_17.jpg
+* m10_18.JPG => m10_18.jpg
+* m10_19.JPG => m10_19.jpg
+* m10_2.JPG => m10_2.jpg
+* m10_20.JPG => m10_20.jpg
+* m10_21.JPG => m10_21.jpg
+* m10_22_mammillary_body_nucleus.JPG => m10_22_mammillary_body_nucleus.jpg
+* m10_23.JPG => m10_23.jpg
+* m10_24_paraventricular_nucleus.JPG => m10_24_paraventricular_nucleus.jpg
+* m10_25_supraoptic_nucleus.JPG => m10_25_supraoptic_nucleus.jpg
+* m10_26.JPG => m10_26.jpg
+* m10_27.JPG => m10_27.jpg
+* m10_28.JPG => m10_28.jpg
+* m10_29.JPG => m10_29.jpg
+* m10_3.JPG => m10_3.jpg
+* m10_30.JPG => m10_30.jpg
+* m10_31.JPG => m10_31.jpg
+* m10_32.JPG => m10_32.jpg
+* m10_33.JPG => m10_33.jpg
+* m10_34.JPG => m10_34.jpg
+* m10_35.JPG => m10_35.jpg
+* m10_36.JPG => m10_36.jpg
+* m10_37.JPG => m10_37.jpg
+* m10_38.JPG => m10_38.jpg
+* m10_39.JPG => m10_39.jpg
+* m10_4.JPG => m10_4.jpg
+* m10_40.JPG => m10_40.jpg
+* m10_41.JPG => m10_41.jpg
+* m10_42.JPG => m10_42.jpg
+* m10_43.JPG => m10_43.jpg
+* m10_44.JPG => m10_44.jpg
+* m10_45.JPG => m10_45.jpg
+* m10_46.JPG => m10_46.jpg
+* m10_47.JPG => m10_47.jpg
+* m10_48.JPG => m10_48.jpg
+* m10_49.JPG => m10_49.jpg
+* m10_5.JPG => m10_5.jpg
+* m10_50.JPG => m10_50.jpg
+* m10_51_dcml.JPG => m10_51_dcml.jpg
+* m10_52_cst.JPG => m10_52_cst.jpg
+* m10_6.JPG => m10_6.jpg
+* m10_7.JPG => m10_7.jpg
+* m10_8.JPG => m10_8.jpg
+* m10_9.JPG => m10_9.jpg
+* p10_1.JPG => p10_1.jpg
+* p10_10.JPG => p10_10.jpg
+* p10_11.JPG => p10_11.jpg
+* p10_13.JPG => p10_13.jpg
+* p10_13b.JPG => p10_13b.jpg
+* p10_14.JPG => p10_14.jpg
+* p10_15.JPG => p10_15.jpg
+* p10_17.JPG => p10_17.jpg
+* p10_19.JPG => p10_19.jpg
+* p10_2.JPG => p10_2.jpg
+* p10_23.JPG => p10_23.jpg
+* p10_26.JPG => p10_26.jpg
+* p10_27.JPG => p10_27.jpg
+* p10_28.JPG => p10_28.jpg
+* p10_29.JPG => p10_29.jpg
+* p10_3.JPG => p10_3.jpg
+* p10_31.JPG => p10_31.jpg
+* p10_32.JPG => p10_32.jpg
+* p10_33.JPG => p10_33.jpg
+* p10_34.JPG => p10_34.jpg
+* p10_35.JPG => p10_35.jpg
+* p10_36.JPG => p10_36.jpg
+* p10_37.JPG => p10_37.jpg
+* p10_38.JPG => p10_38.jpg
+* p10_39.JPG => p10_39.jpg
+* p10_4.JPG => p10_4.jpg
+* p10_40.JPG => p10_40.jpg
+* p10_41.JPG => p10_41.jpg
+* p10_42.JPG => p10_42.jpg
+* p10_44.JPG => p10_44.jpg
+* p10_45.JPG => p10_45.jpg
+* p10_46.JPG => p10_46.jpg
+* p10_47.JPG => p10_47.jpg
+* p10_48.JPG => p10_48.jpg
+* p10_49.JPG => p10_49.jpg
+* p10_5.JPG => p10_5.jpg
+* p10_7.JPG => p10_7.jpg
+* p10_8.JPG => p10_8.jpg
+* p10_9.JPG => p10_9.jpg
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

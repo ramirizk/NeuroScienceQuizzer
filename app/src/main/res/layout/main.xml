@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageSwitcher
+        android:id="@+id/ImageSwitcher01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/brain_highlighted" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android.gravity="center"
+            android.id="@+id/welcome_title"
+            android.textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/welcome_title"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/practical1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/practical1" />
+
+        <Button
+            android:id="@+id/practical2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/practical2"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/final_test"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/final_test"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/about"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</RelativeLayout>

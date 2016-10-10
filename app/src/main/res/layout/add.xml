@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <RadioGroup
+        android:id="@+id/addGroup1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/lab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Add to Lab Practical 1 Practice" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/lab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Add to Lab Practical 2 Practice" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/lab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Add to Lab Practical 3 Practice" >
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/addpic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Question" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="health_science.Neuroscience_Quizzer_XT"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="13" />
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainMenu"
+                  android:label="@string/app_name" android:icon="@drawable/neuroscience2_icon">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/neuroscience2_icon" android:label="@string/p1" android:name=".lab_practical_1" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:icon="@drawable/neuroscience2_icon" android:label="@string/p2" android:name=".lab_practical_2" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:label="@string/p3" android:icon="@drawable/neuroscience2_icon" android:name=".lab_practical_3" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+
+    </application>
+</manifest>

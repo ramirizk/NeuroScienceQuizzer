@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Neuroscience Quizzer XT</string>
+    <string name="welcome_title">Welcome to Neuroscience Lab Quizzer</string>
+    <string name="practical1">Neuroscience Lab Practical 1 </string>
+    <string name="practical2">Neuroscience Lab Practical 2 </string>
+    <string name="final_test">Neuroscience Lab Practical 3 (final) </string>
+    <string name="about">About</string>
+    <string name="p1">Neuroscience Lab Practical 1</string>
+    <string name="p2">Neuroscience Lab Practical 2</string>
+    <string name="p3">Neuroscience Lab Practical 3 (final)</string>
+    <string name="add">Add a Question to the Quizzer</string>
+    <string name="addpic">Add Pictures and Questions Here</string>
+    <string name="p1_question"></string>
+    <string name="hint_text">Enter Your Answer Here</string>
+    <string name="Next">Next Question</string>
+    <string name="Check">Check Answer</string>
+    <string name="p2_question"></string>
+    <string name="p3_question"></string>
+
+</resources>
